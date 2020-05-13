@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     @GxLicense
-    @GetMapping("/hello")
+    @GetMapping("/helloLicense")
     public String sayHello(){
         return "hello license !";
     }
